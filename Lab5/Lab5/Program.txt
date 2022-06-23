@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+const int num = 12;
+
+int main()
+{
+   int a;
+   int b = 5;
+   bool c = true;
+   const int N = 1;
+   const double A = 13;
+   cout << a + b + c << endl << num + N + A << endl;
+   system("pause")
+}
